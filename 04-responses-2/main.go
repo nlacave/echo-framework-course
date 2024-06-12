@@ -6,6 +6,12 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
+type Person struct {
+	Firstname string `json:"first_name"`
+	LastName  string `json:"last_name"`
+	Age       int    `json:"age"`
+}
+
 func main() {
 	e := echo.New()
 	p := Person{
@@ -22,10 +28,4 @@ func main() {
 	})
 
 	e.Logger.Fatal(e.Start(":8080"))
-}
-
-type Person struct {
-	Firstname string `json:"first_name"`
-	LastName  string `json:"last_name"`
-	Age       int    `json:"age"`
 }
