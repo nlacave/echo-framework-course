@@ -1,0 +1,11 @@
+method=GET, uri=/, status=404
+method=GET, uri=/favicon.ico, status=404
+method=GET, uri=/, status=404
+method=GET, uri=/favicon.ico, status=404
+method=GET, uri=/, status=200
+{"time":"2024-06-19T10:27:38.5998511-03:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36","status":200,"error":"","latency":0,"latency_human":"0s","bytes_in":0,"bytes_out":10}
+{"time":"2024-06-19T10:27:40.3515305-03:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36","status":200,"error":"","latency":0,"latency_human":"0s","bytes_in":0,"bytes_out":10}
+{"time":"2024-06-19T10:30:03.4076022-03:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/?id=500&pag=5&limit=3","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36","status":200,"error":"","latency":0,"latency_human":"0s","bytes_in":0,"bytes_out":10}
+{"time":"2024-06-19T10:40:06.8840569-03:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36","status":200,"error":"","latency":0,"latency_human":"0s","bytes_in":0,"bytes_out":10}
+{"time":"2024-06-19T10:40:35.3806281-03:00","id":"","remote_ip":"127.0.0.1","host":"localhost:7878","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0","status":200,"error":"","latency":0,"latency_human":"0s","bytes_in":0,"bytes_out":10}
+{"time":"2024-06-19T10:40:35.4520351-03:00","id":"","remote_ip":"127.0.0.1","host":"localhost:7878","method":"GET","uri":"/favicon.ico","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0","status":404,"error":"code=404, message=Not Found","latency":7185000,"latency_human":"7.185ms","bytes_in":0,"bytes_out":24}
